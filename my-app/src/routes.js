@@ -15,6 +15,16 @@ const routes = [
         main : () => <About />
     },
     {
+        path : '/install/grandservice',
+        exact : false,
+        main : () => <About />
+    },
+    {
+        path : '/install/login',
+        exact : false,
+        main : () => <About />
+    },
+    {
         path : '/notfound',
         exact : false,
         main : () => <NotFound />
