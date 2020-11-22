@@ -28,6 +28,12 @@ app.get('/', (req,res) => {
 app.get('/about', (req,res) => {
   res.sendFile(path.join(__dirname, '../my-app/build/index.html'));
 });
+app.get('/install/login', (req,res) => {
+  res.sendFile(path.join(__dirname, '../my-app/build/index.html'));
+});
+app.get('/install/grandservice', (req,res) => {
+  res.sendFile(path.join(__dirname, '../my-app/build/index.html'));
+});
 
 app.listen(port, () => {
     console.log(`Server listening on the port::${port}`);
